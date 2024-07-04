@@ -57,5 +57,9 @@ public class CatalgoLivros {
         catalgoLivros.adicionarlivro("Livro 3", "autor 3", 2000);
         catalgoLivros.adicionarlivro("Livro 4", "autor 3", 2011);
         catalgoLivros.adicionarlivro("Livro 5", "autor 5", 2009);
+
+        System.out.println(catalgoLivros.pesquisarAutor("autor 3"));
+        System.out.println(catalgoLivros.pesquisarPorIntervaloAnos(2000, 2011));
+        System.out.println(catalgoLivros.pesquisarPorLivro("Livro 1"));
     }
 }
